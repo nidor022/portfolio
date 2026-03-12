@@ -1,380 +1,355 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ko">
 <head>
-	<meta charset="utf-8" />
-	<meta http-equiv="X-UA-Compatible" content="IE=edge" />
-	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
-	<meta name="description" content="" />
-	<meta name="author" content="" />
-	<title>포트폴리오</title>
-	<link href="https://cdn.jsdelivr.net/npm/simple-datatables@7.1.2/dist/style.min.css" rel="stylesheet" />
-	<link href="css/styles.css" rel="stylesheet" />
-	<script src="https://use.fontawesome.com/releases/v6.3.0/js/all.js" crossorigin="anonymous"></script>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="이루리의 포트폴리오 - Web Developer & Frontend Engineer" />
+    <title>이루리 | 포트폴리오</title>
+    <link rel="stylesheet" href="css/modern.css" />
+    <script src="https://use.fontawesome.com/releases/v6.3.0/js/all.js" crossorigin="anonymous"></script>
 </head>
-<body class="sb-nav-fixed">
-	<nav class="sb-topnav navbar navbar-expand navbar-dark bg-dark">
-		<a class="navbar-brand ps-3" href="index.html">이루리의 포트폴리오</a>
-		<button class="btn btn-link btn-sm order-1 order-lg-0 me-4 me-lg-0" id="sidebarToggle" href="#!"><i class="fas fa-bars"></i></button>
-	</nav>
-	<div id="layoutSidenav">
-		<div id="layoutSidenav_nav">
-			<nav class="sb-sidenav accordion sb-sidenav-dark" id="sidenavAccordion">
-				<div class="sb-sidenav-menu">
-					<div class="nav">
-						<div class="sb-sidenav-menu-heading">skills</div>
-						<a class="nav-link" href="index.html">
-							<div class="sb-nav-link-icon"><i class="fas fa-book-open"></i></div>
-							Skills
-						</a>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="container">
+            <div class="navbar-content">
+                <a href="#home" class="logo">이루리</a>
+                <ul class="nav-links">
+                    <li><a href="#about">소개</a></li>
+                    <li><a href="#skills">기술</a></li>
+                    <li><a href="#projects">프로젝트</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
 
-					</div>
-				</div>
-			</nav>
-		</div>
-		<div id="layoutSidenav_content">
-			<main>
-				<div class="container-fluid px-4">
-					<h1 class="mt-4">이루리</h1>
-					<ol class="breadcrumb mb-4">
-						<li class="breadcrumb-item active">Web Developer . 경력 2년 8개월</li>
-					</ol>
-					<section id="self-introduction" class="mt-5">
-						<h3>self-introduction</h3>
-						<div>
-							<p>- 방송통신대학 컴퓨터과학과 3학년 과정 재학중</p>
-							<p>- 2022년 1월 (주)엔에스데블 2년 8개월 신사업 개발부서 주임 경력</p>
-							<p>- 2025년 프론트엔드 부트캠프과정 이수</p>
-						</div>
-					</section>
-					<section id="skills" class="site-section section-skills mt-5">
-						<h3>Skills</h3>
-						<div class="sk-container">
-							<div class="progress_bar">
-								<div class="pro-bar">
-									<small class="progress_bar_title">
-										Next.js, React.js
-									</small>
-									<span class="progress-bar-inner" style="background-color: #838383; width: 35%;" data-value="50" data-percentage-value="89"></span>
-								</div>
-							</div>
-							<div class="progress_bar">
-								<div class="pro-bar">
-									<small class="progress_bar_title">
-										Typescript
-									</small>
-									<span class="progress-bar-inner" style="background-color: #838383; width: 35%;" data-value="50" data-percentage-value="89"></span>
-								</div>
-							</div>
-							<div class="progress_bar">
-								<div class="pro-bar">
-									<small class="progress_bar_title">
-										JAVA
-									</small>
-									<span class="progress-bar-inner" style="background-color: #838383; width: 45%;" data-value="50" data-percentage-value="89"></span>
-								</div>
-							</div>
-							<div class="progress_bar">
-								<div class="pro-bar">
-									<small class="progress_bar_title">
-										JavaScript
-									</small>
-									<span class="progress-bar-inner" style="background-color: #222222; width: 50%;" data-value="50" data-percentage-value="89"></span>
-								</div>
-							</div>
-							<div class="progress_bar">
-								<div class="pro-bar">
-									<small class="progress_bar_title">
-										Vue.js
-									</small>
-									<span class="progress-bar-inner" style="width: 50%;" data-value="50" data-percentage-value="89"></span>
-								</div>
-							</div>
-							<div class="progress_bar">
-								<div class="pro-bar">
-									<small class="progress_bar_title">
-										JSP
-									</small>
-									<span class="progress-bar-inner" style="width: 30%" data-value="50" data-percentage-value="89"></span>
-								</div>
-							</div>
-							<div class="progress_bar">
-								<div class="pro-bar">
-									<small class="progress_bar_title">
-										Postgresql
-									</small>
-									<span class="progress-bar-inner" style="background-color: #222222; width: 40%;" data-value="50" data-percentage-value="89"></span>
-								</div>
-							</div>
-							<div class="progress_bar">
-								<div class="pro-bar">
-									<small class="progress_bar_title">
-										SpringBoot
-									</small>
-									<span class="progress-bar-inner" style="background-color: #222222; width: 40%;" data-value="50" data-percentage-value="89"></span>
-								</div>
-							</div>
-							<div class="progress_bar">
-								<div class="pro-bar">
-									<small class="progress_bar_title">
-										Linux
-									</small>
-									<span class="progress-bar-inner" style="background-color: #222222; width: 30%;" data-value="50" data-percentage-value="89"></span>
-								</div>
-							</div>
-							<div class="progress_bar">
-								<div class="pro-bar">
-									<small class="progress_bar_title">
-										HTML
-									</small>
-									<span class="progress-bar-inner" style="background-color: #222222; width: 50%;" data-value="50" data-percentage-value="89"></span>
-								</div>
-							</div>
-							<div class="progress_bar">
-								<div class="pro-bar">
-									<small class="progress_bar_title">
-										CSS
-									</small>
-									<span class="progress-bar-inner" style="background-color: #222222; width: 50%;" data-value="50" data-percentage-value="89"></span>
-								</div>
-							</div>
-							<div class="progress_bar">
-								<div class="pro-bar">
-									<small class="progress_bar_title">
-										Mysql
-									</small>
-									<span class="progress-bar-inner" style="background-color: #222222; width: 30%;" data-value="50" data-percentage-value="89"></span>
-								</div>
-							</div>
-						</div>
-					</section>
-					
-					<section class="project_container">
-						<section class="project" class="mt-5">
-								<div class="mt-4">
-									<p class="title">학원 프로젝트 (이미지 클릭시 깃허브 링크로 이동)</p>
-	
-									<section id="portfolio" class="site-section section-portfolio">
-										<div class="container">
-											<div class="portfolio-item">
-												<h4>밀키트 프로젝트</h4>
-												<a href="https://github.com/nidor022/mealkit">
-													<img src="assets/img/buenomain.jpg" class="img-res" alt="">
-												</a>
-											</div>
-											<div class="portfolio-item">
-												<h4>숙박시설 예약사이트</h4>
-												<a href="https://github.com/nidor022/spring_travel">
-													<img src="assets/img/travelmain(1).jpg" href="https://github.com/nidor022/spring_travel" class="img-res" alt="">
-												</a>
-											</div>
-										</div>
-									</section>
-								</div>
-						</section>
-	
-						<section class="project" class="mt-5">
-							<div class="mt-4">
-								<p class="title">회사 프로젝트</p>
-								<h5>- 전문의 국가시험 문제은행 시스템 유지보수</h5>
-								<p>설문 페이지, 응시자 자리배치 및 출력, 문항 관리 등 기능 개발 및 기타 응시자관련 버그수정</p>
-								<br/>
-								<h5>- 의대 학부 내 문제은행 시스템 유지보수</h5>
-								<p>
-									<span>기능 추가, 개선 및 버그 수정 (설문, 응시자배정, 인력관리, 시험 카테고리관리, 답안출력 및 보기, 문항 파일 업로드 등)</span><br/>
-									<span>Jsp, Java spring, Postgresql, MySql, Oracle으로 프로젝트 개발, git으로 버전관리. linux, svn을 사용해서 프로젝트 배포.</span>
-								</p>
-								<br/>
-								<h5>- 바이오헬스 혁신융합대학 학사관리 시스템 개발</h5>
-								<p>
-									
-								</p>
-								<span>교수, 학생, 수강페이지, 관리자, 비교과, 성과플랫폼 등 학사관리 시스템 개발</span><br/>
-								<span>강의 수강페이지, 출석관리, 성적평균, 학적, 강의평가(설문), SMS발송/인증 등 전반적인 강의 생성, 수강, 출석, 점수산출, 수강신청 및 기타 기능</span><br/>
-								<span>Vue.js, Java spring boot, Postgresql를 사용해 프로젝트 개발, git으로 버전관리(gitlab), linux, jenkins를 사용해 프로젝트 배포</span>
-							</div>
-						</section>
-	
-	
-						<section class="project" class="mt-5">
-								<div class="mt-4">
-									<p class="title">부트캠프 프로젝트 (이미지 클릭시 깃허브 링크로 이동)</p>
-	
-									<section id="portfolio" class="site-section section-portfolio">
-										<div class="container">
-											<div class="portfolio-item">
-												<h4>Rolling 롤링페이퍼</h4>
-												<a href="https://github.com/nidor022/rolling">
-													<img src="assets/img/rolling.png" class="img-res" alt="rolling_이미지">
-												</a>
-											</div>
-											<div class="portfolio-item">
-												<h4>Taskify 일정관리 사이트</h4>
-												<a href="https://github.com/nidor022/Taskify">
-													<img src="assets/img/taskify.png" href="https://github.com/nidor022/Taskify" class="img-res" alt="taskify_이미지">
-												</a>
-											</div>
-											<div class="portfolio-item">
-												<h4>PlanGo 팀별 일정관리 및 팀 참여가 가능한 자유게시판 (심화)</h4>
-												<a href="https://github.com/nidor022/Plango">
-													<img src="assets/img/plango.png" href="https://github.com/nidor022/Plango" class="img-res" alt="plango_이미지">
-												</a>
-											</div>
-										</div>
-									</section>
-								</div>
-						</section>
-					</section>
-				</div>
-			</main>
-		</div>
-	</div>
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js" crossorigin="anonymous"></script>
-<script src="js/scripts.js"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.8.0/Chart.min.js" crossorigin="anonymous"></script>
-<script src="assets/demo/chart-area-demo.js"></script>
-<script src="assets/demo/chart-bar-demo.js"></script>
-<script src="https://cdn.jsdelivr.net/npm/simple-datatables@7.1.2/dist/umd/simple-datatables.min.js" crossorigin="anonymous"></script>
-<script src="js/datatables-simple-demo.js"></script>
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="container">
+            <div class="hero-content">
+                <h1 class="hero-title">이루리</h1>
+                <p class="hero-subtitle">Web Developer & Frontend Engineer</p>
+                <p class="hero-description">
+                    경력 2년 8개월의 신사업 개발 경험과 프론트엔드 부트캠프 교육을 통해<br>
+                    사용자 중심의 웹 애플리케이션을 개발합니다.
+                </p>
+                <div class="hero-links">
+                    <a href="#projects" class="btn btn-primary">프로젝트 보기</a>
+                    <a href="https://github.com/nidor022" class="btn btn-secondary" target="_blank">GitHub</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about">
+        <div class="container">
+            <h2 class="section-title">소개</h2>
+            <div class="about-grid">
+                <div class="about-item">
+                    <div class="about-icon">
+                        <i class="fas fa-graduation-cap"></i>
+                    </div>
+                    <h3>교육</h3>
+                    <ul class="about-list">
+                        <li>방송통신대학 컴퓨터과학과 3학년 재학중</li>
+                        <li>프론트엔드 부트캠프 (2025년 이수)</li>
+                    </ul>
+                </div>
+                <div class="about-item">
+                    <div class="about-icon">
+                        <i class="fas fa-briefcase"></i>
+                    </div>
+                    <h3>경력</h3>
+                    <ul class="about-list">
+                        <li>(주)엔에스데블 신사업 개발부서 주임</li>
+                        <li>2022년 1월 - 2024년 8월 (2년 8개월)</li>
+                    </ul>
+                </div>
+                <div class="about-item">
+                    <div class="about-icon">
+                        <i class="fas fa-code"></i>
+                    </div>
+                    <h3>전문성</h3>
+                    <ul class="about-list">
+                        <li>Frontend: React, Next.js, Vue.js</li>
+                        <li>Backend: Java Spring, SpringBoot</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="skills">
+        <div class="container">
+            <h2 class="section-title">기술 스택</h2>
+            <div class="skills-grid">
+                <!-- Frontend -->
+                <div class="skill-category">
+                    <h3 class="category-title">Frontend</h3>
+                    <div class="skill-items">
+                        <div class="skill-item">
+                            <div class="skill-name">React.js</div>
+                            <div class="skill-bar">
+                                <div class="skill-progress" style="width: 85%"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <div class="skill-name">Next.js</div>
+                            <div class="skill-bar">
+                                <div class="skill-progress" style="width: 80%"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <div class="skill-name">TypeScript</div>
+                            <div class="skill-bar">
+                                <div class="skill-progress" style="width: 85%"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <div class="skill-name">Vue.js</div>
+                            <div class="skill-bar">
+                                <div class="skill-progress" style="width: 75%"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <div class="skill-name">JavaScript</div>
+                            <div class="skill-bar">
+                                <div class="skill-progress" style="width: 90%"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <div class="skill-name">HTML / CSS</div>
+                            <div class="skill-bar">
+                                <div class="skill-progress" style="width: 90%"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Backend -->
+                <div class="skill-category">
+                    <h3 class="category-title">Backend</h3>
+                    <div class="skill-items">
+                        <div class="skill-item">
+                            <div class="skill-name">Spring Boot</div>
+                            <div class="skill-bar">
+                                <div class="skill-progress" style="width: 80%"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <div class="skill-name">Java</div>
+                            <div class="skill-bar">
+                                <div class="skill-progress" style="width: 80%"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <div class="skill-name">JSP</div>
+                            <div class="skill-bar">
+                                <div class="skill-progress" style="width: 70%"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Database & Tools -->
+                <div class="skill-category">
+                    <h3 class="category-title">Database & Tools</h3>
+                    <div class="skill-items">
+                        <div class="skill-item">
+                            <div class="skill-name">PostgreSQL</div>
+                            <div class="skill-bar">
+                                <div class="skill-progress" style="width: 80%"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <div class="skill-name">MySQL</div>
+                            <div class="skill-bar">
+                                <div class="skill-progress" style="width: 75%"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <div class="skill-name">Git / SVN</div>
+                            <div class="skill-bar">
+                                <div class="skill-progress" style="width: 85%"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <div class="skill-name">Linux</div>
+                            <div class="skill-bar">
+                                <div class="skill-progress" style="width: 70%"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="projects">
+        <div class="container">
+            <h2 class="section-title">프로젝트</h2>
+
+            <!-- 학원 프로젝트 -->
+            <div class="project-category">
+                <h3 class="project-category-title">학원 프로젝트</h3>
+                <div class="projects-grid">
+                    <div class="project-card">
+                        <div class="project-image">
+                            <img src="assets/img/buenomain.jpg" alt="밀키트 프로젝트">
+                            <div class="project-overlay">
+                                <a href="https://github.com/nidor022/mealkit" target="_blank" class="project-link">
+                                    GitHub 보기
+                                </a>
+                            </div>
+                        </div>
+                        <div class="project-info">
+                            <h4>밀키트 프로젝트</h4>
+                            <p class="project-tech">Jsp, Spring boot, MySql</p>
+                        </div>
+                    </div>
+
+                    <div class="project-card">
+                        <div class="project-image">
+                            <img src="assets/img/travelmain(1).jpg" alt="숙박시설 예약사이트">
+                            <div class="project-overlay">
+                                <a href="https://github.com/nidor022/spring_travel" target="_blank" class="project-link">
+                                    GitHub 보기
+                                </a>
+                            </div>
+                        </div>
+                        <div class="project-info">
+                            <h4>숙박시설 예약사이트</h4>
+                            <p class="project-tech">Jsp, Spring boot, MySQL</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- 부트캠프 프로젝트 -->
+            <div class="project-category">
+                <h3 class="project-category-title">부트캠프 프로젝트</h3>
+                <div class="projects-grid">
+                    <div class="project-card">
+                        <div class="project-image">
+                            <img src="assets/img/rolling.png" alt="Rolling 롤링페이퍼">
+                            <div class="project-overlay">
+                                <a href="https://github.com/nidor022/rolling" target="_blank" class="project-link">
+                                    GitHub 보기
+                                </a>
+                            </div>
+                        </div>
+                        <div class="project-info">
+                            <h4>Rolling 롤링페이퍼</h4>
+                            <p class="project-tech">React</p>
+                        </div>
+                    </div>
+
+                    <div class="project-card">
+                        <div class="project-image">
+                            <img src="assets/img/taskify.png" alt="Taskify 일정관리 사이트">
+                            <div class="project-overlay">
+                                <a href="https://github.com/nidor022/Taskify" target="_blank" class="project-link">
+                                    GitHub 보기
+                                </a>
+                            </div>
+                        </div>
+                        <div class="project-info">
+                            <h4>Taskify 일정관리 사이트</h4>
+                            <p class="project-tech">Next.js, TypeScript</p>
+                        </div>
+                    </div>
+
+                    <div class="project-card">
+                        <div class="project-image">
+                            <img src="assets/img/plango.png" alt="PlanGo 팀별 일정관리">
+                            <div class="project-overlay">
+                                <a href="https://github.com/nidor022/Plango" target="_blank" class="project-link">
+                                    GitHub 보기
+                                </a>
+                            </div>
+                        </div>
+                        <div class="project-info">
+                            <h4>PlanGo (심화)</h4>
+                            <p class="project-tech">Next.js, TypeScript, 리브랜딩</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- 회사 프로젝트 -->
+            <div class="project-category">
+                <h3 class="project-category-title">회사 프로젝트</h3>
+                <div class="company-projects">
+                    <div class="company-project-item">
+                        <h4>전문의 국가시험 문제은행 시스템</h4>
+                        <p>설문 페이지, 응시자 자리배치 및 출력, 문항 관리 등 기능 개발 및 버그 수정</p>
+                        <div class="project-tags">
+                            <span class="tag">JSP</span>
+                            <span class="tag">Java</span>
+                            <span class="tag">PostgreSQL</span>
+                        </div>
+                    </div>
+
+                    <div class="company-project-item">
+                        <h4>의대 학부 내 문제은행 시스템 유지보수</h4>
+                        <p>기능 추가, 개선 및 버그 수정 (설문, 응시자배정, 인력관리, 카테고리 관리, 답안출력 등)</p>
+                        <p class="project-details">
+                            <strong>기술스택:</strong> JSP, Java Spring, PostgreSQL, MySQL, Oracle<br>
+                            <strong>배포:</strong> Git 버전관리, Linux, SVN
+                        </p>
+                        <div class="project-tags">
+                            <span class="tag">JSP</span>
+                            <span class="tag">Spring</span>
+                            <span class="tag">MySQL</span>
+                            <span class="tag">Oracle</span>
+                            <span class="tag">Git</span>
+                        </div>
+                    </div>
+
+                    <div class="company-project-item">
+                        <h4>바이오헬스 혁신융합대학 학사관리 시스템</h4>
+                        <p>교수, 학생, 수강페이지, 관리자, 비교과, 성과플랫폼 등 학사관리 시스템 개발</p>
+                        <p class="project-details">
+                            강의 수강페이지, 출석관리, 성적평균, 학적, 강의평가(설문), SMS 발송/인증 등 전반적인 강의 생성, 수강, 출석, 점수산출, 수강신청 및 기타 기능 담당<br>
+                            <strong>기술스택:</strong> Vue.js, Java Spring Boot, PostgreSQL<br>
+                            <strong>배포:</strong> Git(GitLab) 버전관리, Linux, Jenkins
+                        </p>
+                        <div class="project-tags">
+                            <span class="tag">Vue.js</span>
+                            <span class="tag">Spring Boot</span>
+                            <span class="tag">PostgreSQL</span>
+                            <span class="tag">Jenkins</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h3>이루리</h3>
+                    <p>Web Developer & Frontend Engineer</p>
+                </div>
+                <div class="footer-section">
+                    <h3>링크</h3>
+                    <ul class="footer-links">
+                        <li><a href="https://github.com/nidor022" target="_blank">GitHub</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2025 이루리. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="js/main.js"></script>
 </body>
-<style>
-body {
-	font-family: 'Arial', sans-serif;
-}
-
-h1, h3 {
-	font-weight: 700;
-}
-
-#skills .sk-container {
-	padding: 0px 30px;
-	display: grid;
-	grid-template-columns: 1fr 1fr 1fr;
-	width: 40%;
-}
-#skills .sk-container .skill img {
-	height: 100px;
-}
-#skills .sk-container .skill {
-	display: grid;
-	grid-template-columns: 100px 300px;
-	align-items: center;
-}
-
-.progress_bar .pro-bar {
-    background: hsl(0, 0%, 97%);
-    box-shadow: 0 1px 2px hsla(0, 0%, 0%, 0.1) inset;
-    height:4px;
-    margin-bottom: 12px;
-    margin-top: 50px;
-    position: relative;
-	width: 300px;
-}
-.progress_bar .progress_bar_title{
-    color: hsl(218, 4%, 50%);
-    font-size: 15px;
-    font-weight: 300;
-    position: relative;
-    top: -28px;
-    z-index: 1;
-}
-.progress_bar .progress_number{
-    float: right;
-    margin-top: -24px;
-}
-.progress_bar .progress-bar-inner {
-    background-color: hsl(0, 0%, 88%);
-    display: block;
-    width: 0;
-    height: 100%;
-    position: absolute;
-    top: 0;
-    left: 0;
-    transition: width 1s linear 0s;
-}
-.progress_bar .progress-bar-inner:before {
-    content: "";
-    background-color: hsl(0, 0%, 100%);
-    border-radius: 50%;
-    width: 4px;
-    height: 4px;
-    position: absolute;
-    right: 1px;
-    top: 0;
-    z-index: 1;
-}
-.progress_bar .progress-bar-inner:after {
-    content: "";
-    width: 14px;
-    height: 14px;
-    background-color: inherit;
-    border-radius: 50%;
-    position: absolute;
-    right: -4px;
-    top: -5px;
-}
-.progress_bar_title {
-	color: #838383 !important; 
-	font-weight: 700 !important;
-}
-.progress-bar-inner {
-	background-color: #838383 !important; 
-}
-
-#portfolio .container {
-    display: grid;
-		grid-template-columns: repeat(3, 330px);
-    gap: 35px;
-    padding: 0;
-    margin: 0;
-}
-#portfolio .portfolio-item {
-    background: #ffffff;
-    border-radius: 14px;
-    padding: 20px;
-    box-shadow: 0px 4px 12px rgba(0,0,0,0.1);
-    transition: 0.3s;
-}
-#portfolio .portfolio-item:hover {
-    transform: translateY(-6px);
-    box-shadow: 0px 6px 18px rgba(0,0,0,0.15);
-}
-#portfolio .portfolio-item img {
-    width: 300px !important;
-    height: 250px !important;
-    object-fit: cover;
-    border-radius: 10px;
-}
-#portfolio .portfolio-item h4 {
-    font-size: 1.2rem;
-    font-weight: 700;
-    margin-bottom: 15px;
-}
-
-.project_container {
-	display: flex;
-	flex-direction: column-reverse;
-}
-
-.project {
-	padding: 30px 0;
-}
-
-.project .title {
-    font-weight: bold;
-    font-size: 1.6rem;
-    margin-bottom: 20px;
-}
-
-p {
-    line-height: 1.6;
-}
-
-@media (max-width: 768px) {
-    h1 { font-size: 1.8rem; }
-    #skills .sk-container {
-        grid-template-columns: repeat(auto-fill, minmax(180px, 1fr));
-    }
-}
-
-</style>
 </html>
